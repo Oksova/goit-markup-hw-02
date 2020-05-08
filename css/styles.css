@@ -1,0 +1,39 @@
+/* Палитра цветов */
+
+/* 
+Основной цвет фона #FFFFFF 
+Вторичный цвет фона #E5E5E5
+Основной цвет текста  #212121
+Дополнительный цвет текста #757575 
+Акцент #2196F3 
+*/
+
+:root {
+    --primary-text-color: var(#212121) 
+    --secondary-texy-color:var(#757575)
+    --primary-text-backgroundcolor: var(#FFFFFF)
+    --secondary-text-backgroundcolor: var (#E5E5E5)
+    --accent: var(#2196F3)
+}
+
+/* Site-nav-list */
+
+
+.main-title{
+  color: white;
+  background-color: brown;
+}
+
+.title{
+  color: var(--primary-text-color);
+}
+
+.mail:hover{
+  color: #2196F3 ;
+  }
+
+.link:hover
+.link:focus{
+  color:#2196F3 ;
+}
+
