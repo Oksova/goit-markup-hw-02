@@ -9,31 +9,59 @@
 */
 
 :root {
-    --primary-text-color: var(#212121) 
-    --secondary-texy-color:var(#757575)
-    --primary-text-backgroundcolor: var(#FFFFFF)
-    --secondary-text-backgroundcolor: var (#E5E5E5)
-    --accent: var(#2196F3)
+  --primary-text-color: var(#212121);
+  --secondary-texy-color: var(#757575);
+  --primary-text-backgroundcolor: var(#ffffff);
+  --secondary-text-backgroundcolor: var (#e5e5e5);
+  --accent-color: var(#2196f3);
 }
 
 /* Site-nav-list */
 
-
-.main-title{
-  color: white;
-  background-color: brown;
+.logo {
+  color: #212121;
+}
+.web {
+  color: #2196f3;
 }
 
-.title{
+.site-nav link {
+  color: #212121;
+}
+.link-current {
+  color: #2196f3;
+}
+
+.title {
   color: var(--primary-text-color);
 }
-
-.mail:hover{
-  color: #2196F3 ;
-  }
-
-.link:hover
-.link:focus{
-  color:#2196F3 ;
+.auth-nav a {
+  color: #212121;
+}
+.mail:hover {
+  color: #2196f3;
 }
 
+/* Основная секция */
+.main-title {
+  color: white;
+  background-color: brown;
+  text-align: center;
+}
+
+.main-title.button {
+  color: white;
+  text-align: center;
+}
+
+/* Преимущества */
+
+.features-text {
+  color: #757575;
+}
+
+/* Чем мы занимаемся */
+.works-title {
+  color: #ffffff;
+  background-color: #757575;
+}
