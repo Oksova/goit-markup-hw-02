@@ -3,39 +3,66 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
     <title>Document</title>
   </head>
   <body>
+    <header>
+      <nav>
+        <a href="" class="logo">
+          Web
+          <span class="studio">Studio</span>
+        </a>
+        <ul class="site-nav">
+          <li><a href="./index.html" class="link">Студия</a></li>
+          <li><a href="./portfolio.html" class="link-current">Портфолио</a></li>
+          <li><a href="" class="link">Контакты</a></li>
+        </ul>
+      </nav>
+      <ul class="auth-nav">
+        <li>
+          <img src="./img/Mail.svg" alt="Mail" />
+          <a href="" class="mail">info@devstudio.com</a>
+        </li>
+        <li>
+          <img src="./img/Mobile.png" alt="Номер телефона" />
+          <a href="" class="phone">+380961111111</a>
+        </li>
+      </ul>
+    </header>
     <!--Основная часть страницы-->
-    <main>
+    <main class="portfolio-main">
       <section>
         <!--Сортировка-->
-        <ul>
+        <ul class="selection">
           <li>
-            <a href=""><button type="">Все</button></a>
+            <button type="" class="button-all">Все</button>
           </li>
           <li>
-            <a href=""><button type="">Веб-сайты</button></a>
+            <button type="" class="button">Веб-сайты</button>
           </li>
           <li>
-            <a href=""><button type="">Приложения</button></a>
+            <button type="" class="button">Приложения</button>
           </li>
           <li>
-            <a href=""><button type="">Дизайн</button></a>
+            <button type="" class="button">Дизайн</button>
           </li>
           <li>
-            <a href=""><button type="">Маркетинг</button></a>
+            <button type="" class="button">Маркетинг</button>
           </li>
         </ul>
 
         <!--Готовые проэкты-->
-        <ul>
+        <ul class="projects">
           <li>
             <img src="./img/Web-site.jpg" alt="Открытая страница сайта" />
-            <h2>Технокряк</h2>
-            <p>Веб-сайт</p>
-            <p>
+            <h2 class="project-title">Технокряк</h2>
+            <p class="project-selection">Веб-сайт</p>
+            <p class="project-text">
               Технокряк это современная площадка распространения коронавируса.
               Компании используют эту платформу для цифрового шпионажа и атак на
               защищённые сервера конкурентов.
@@ -44,9 +71,9 @@
 
           <li>
             <img src="./img/Basketball.jpg" alt="Баскетболисты" />
-            <h2>Постер New Orlean vs Golden Stars</h2>
-            <p>Дизайн</p>
-            <p>
+            <h2 class="project-title">Постер New Orlean vs Golden Stars</h2>
+            <p class="project-selection">Дизайн</p>
+            <p class="project-text">
               Технокряк это современная площадка распространения коронавируса.
               Компании используют эту платформу для цифрового шпионажа и атак на
               защищённые сервера конкурентов.
@@ -55,9 +82,9 @@
 
           <li>
             <img src="./img/Seafood.jpg" alt="Морепродукты" />
-            <h2>Ресторан Seafood</h2>
-            <p>Приложение</p>
-            <p>
+            <h2 class="project-title">Ресторан Seafood</h2>
+            <p class="project-selection">Приложение</p>
+            <p class="project-text">
               Технокряк это современная площадка распространения коронавируса.
               Компании используют эту платформу для цифрового шпионажа и атак на
               защищённые сервера конкурентов.
@@ -66,9 +93,9 @@
 
           <li>
             <img src="./img/Earbuds.jpg" alt="Наушники" />
-            <h2>Проект Prime</h2>
-            <p>Маркетинг</p>
-            <p>
+            <h2 class="project-title">Проект Prime</h2>
+            <p class="project-selection">Маркетинг</p>
+            <p class="project-text">
               Технокряк это современная площадка распространения коронавируса.
               Компании используют эту платформу для цифрового шпионажа и атак на
               защищённые сервера конкурентов.
@@ -77,9 +104,9 @@
 
           <li>
             <img src="./img/Books.jpg" alt="Books" />
-            <h2>Проект Boxes</h2>
-            <p>Приложение</p>
-            <p>
+            <h2 class="project-title">Проект Boxes</h2>
+            <p class="project-selection">Приложение</p>
+            <p class="project-text">
               Технокряк это современная площадка распространения коронавируса.
               Компании используют эту платформу для цифрового шпионажа и атак на
               защищённые сервера конкурентов.
@@ -88,9 +115,9 @@
 
           <li>
             <img src="./img/Screen.jpg" alt="Экран монитора" />
-            <h2>Inspiration has no Borders</h2>
-            <p>Веб-сайт</p>
-            <p>
+            <h2 class="project-title">Inspiration has no Borders</h2>
+            <p class="project-selection">Веб-сайт</p>
+            <p class="project-text">
               Технокряк это современная площадка распространения коронавируса.
               Компании используют эту платформу для цифрового шпионажа и атак на
               защищённые сервера конкурентов.
@@ -99,9 +126,9 @@
 
           <li>
             <img src="./img/Magazin.jpg" alt="Журнал" />
-            <h2>Издание Limited Edition</h2>
-            <p>Дизайн</p>
-            <p>
+            <h2 class="project-title">Издание Limited Edition</h2>
+            <p class="project-selection">Дизайн</p>
+            <p class="project-text">
               Технокряк это современная площадка распространения коронавируса.
               Компании используют эту платформу для цифрового шпионажа и атак на
               защищённые сервера конкурентов.
@@ -110,9 +137,9 @@
 
           <li>
             <img src="./img/Label.jpg" alt="Этикетка" />
-            <h2>Проект LAB</h2>
-            <p>Маркетинг</p>
-            <p>
+            <h2 class="project-title">Проект LAB</h2>
+            <p class="project-selection">Маркетинг</p>
+            <p class="project-text">
               Технокряк это современная площадка распространения коронавируса.
               Компании используют эту платформу для цифрового шпионажа и атак на
               защищённые сервера конкурентов.
@@ -121,9 +148,9 @@
 
           <li>
             <img src="./img/Laptop.jpg" alt="Ноутбук" />
-            <h2>Growing Business</h2>
-            <p>Приложение</p>
-            <p>
+            <h2 class="project-title">Growing Business</h2>
+            <p class="project-selection">Приложение</p>
+            <p class="project-text">
               Технокряк это современная площадка распространения коронавируса.
               Компании используют эту платформу для цифрового шпионажа и атак на
               защищённые сервера конкурентов.
@@ -134,26 +161,41 @@
     </main>
 
     <!--Футер-->
-    <footer>
-      <a href="">Web Studio</a>
-      <address>
+    <footer class="footer">
+      <a href="" class="logo">
+        Web
+        <span class="footer-studio">Studio</span>
+      </a>
+      <address class="address">
         г. Киев, пр-т Леси Украинки, 26
         <br />
-        info@example.com
-        <br />
-        +38 099 111 11 11
+        <div class="letter">
+          info@example.com
+          <br />
+        </div>
+        <div class="number">+38 099 111 11 11</div>
         <br />
       </address>
       <section>
-        <h2>Присоединяйтесь</h2>
+        <h2 class="sign">Присоединяйтесь</h2>
         <ul>
-          <li><a href="" aria-label="Ссылка на Instagram">Instagram</a></li>
-          <li><a href="" aria-label="Ссылка на Twitter">Twitter</a></li>
-          <li><a href="" aria-label="Ссылка на Facebook">Facebook</a></li>
-          <li><a href="" aria-label="Ссылка на LinkedIn">LinkedIn</a></li>
+          <li>
+            <a href="" aria-label="Ссылка на Instagram" class="link">
+              Instagram
+            </a>
+          </li>
+          <li>
+            <a href="" aria-label="Ссылка на Twitter" class="link">Twitter</a>
+          </li>
+          <li>
+            <a href="" aria-label="Ссылка на Facebook" class="link">Facebook</a>
+          </li>
+          <li>
+            <a href="" aria-label="Ссылка на LinkedIn" class="link">LinkedIn</a>
+          </li>
         </ul>
       </section>
-      <p>2020 | Developed by GoIT Students</p>
+      <p class="copyright">2020 | Developed by GoIT Students</p>
     </footer>
   </body>
 </html>
